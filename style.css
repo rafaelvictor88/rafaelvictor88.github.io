@@ -1,0 +1,151 @@
+body {
+  font-family: monospace;
+  background-color: rgb(194, 75, 32);
+  padding: 20px;
+}
+
+img {
+  border-radius: 25%;
+}
+
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+h2 {
+  margin-left: 15px;
+}
+
+.indice {
+  padding-bottom: 15px;
+}
+
+.font-name {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.image-container {
+  position: relative;
+  height: 300px;
+}
+
+.description-text {
+  font-size: 18px;
+  top: 10px;
+  right: 5px;
+  left: 250px;
+  position: absolute;
+  text-align: justify;
+}
+
+.img {
+  background-color: coral;
+  padding: 10px;
+  height: 280px;
+  float: left;
+}
+
+.links {
+  position: relative;
+  height: 200px;
+}
+
+.flow {
+  position: absolute;
+  left: 5%;
+}
+.flow-img {
+  height: 60px;
+  position: absolute;
+}
+
+.filipe-deschamps{
+  position: absolute;
+  left: 5%;
+  top: 60%;
+}
+.filipe-deschamps-img {
+  height: 60px;
+  position: absolute;
+}
+
+.so-um-minutinho {
+  position: absolute;
+  left: 40%;
+}
+.so-um-minutinho-img {
+  height: 60px;
+  position: absolute;
+}
+
+.ei-nerd {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+}
+.ei-nerd-img {
+  height: 60px;
+  position: absolute;
+}
+
+.desimpedidos {
+  position: absolute;
+  left: 75%;
+}
+.desimpedidos-img {
+  height: 60px;
+  position: absolute;
+}
+
+.curso-em-video {
+  position: absolute;
+  left: 75%;
+  top: 60%;
+}
+.curso-em-video-img {
+  height: 60px;
+  position: absolute;
+}
+
+.skills-list ul li:nth-child(odd) {
+  background-color: coral;
+}
+
+.redes-sociais {
+  position: relative;
+  height: 150px;
+}
+
+.instagram {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+}
+.instagram-img {
+  height: 60px;
+}
+
+.linkedin {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+.linkedin-img {
+  height: 60px;
+}
+
+.github {
+  position: absolute;
+  left: 75%;
+  top: 40%;
+}
+.github-img {
+  height: 60px;
+}
+
