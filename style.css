@@ -1,6 +1,5 @@
 body {
-  font-family: monospace;
-  background-color: rgb(194, 75, 32);
+  background-color: darkolivegreen;
   padding: 20px;
 }
 
@@ -42,6 +41,7 @@ h2 {
   left: 250px;
   position: absolute;
   text-align: justify;
+  max-height: 120px;
 }
 
 .img {
