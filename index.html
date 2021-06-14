@@ -1,97 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio do Rafael Victor</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfólio do Rafael Victor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    
-    <h1 class="header">Portfólio<br/>Rafael Victor</h1>
-    
-    <div class="indice">
-        <h2><strong>ÍNDICE</strong></h2>
-        <div >
-            <ul>
-                <li><a href="#nome">Nome</a></li>
-                <li><a href="#foto">Foto</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#youtube">Canais do Youtube</a></li>
-                <li><a href="#redes-sociais">Redes Sociais</a></li>
-            </ul>
-        </div>
-     </div>
-    <div>
-        <h3 id="nome" ></h3>
-        <p class="font-name" >Rafael Victor Guimarães dos Santos</p>
-    
-        <div class="image-container">
-            <img class="img" src="Fotodeperfil.jpg" alt="Homem sorrindo" id="foto">
-            
-            <div class="description-text">
-                <h3></h3>
-                <p >Formado em Educação Física a 10 anos, decidi me desafiar e buscar uma nova carreira em Tecnologia.</p>
-                <p >Sou brasileiro e moro atualmente na cidade de Macaé no interior do Estado do Rio de Janeiro.
-                </p>
-            </div>
-        </div>
-    </div>
+	
+	<section class="portfolio-container">
+		<header class="header-container">
+			<h1 id="header-text"> Portifólio</h1>
+		</header>
 
-    <h3 id="habilidades">HABILIDADES:</h3>
-    <div class="skills-list">
-        <ul>
-            <li class="font-size1" ><strong>HTML</strong></li>
-            <li class="font-size2" >Git & GitHub</li>
-            <li class="font-size3" >JavaScript</li>
-            <li class="font-size4" ><em>CSS</em></li>
-        </ul>
-    </div>
+		<div class="index-container"> 
+			<div class="index-list">
+				<div class="index-list-item">
+					<a class="links" href="#nome">Nome</a>
+				</div>
+				<div class="index-list-item">
+					<a class="links" href="#foto">Foto</a>
+				</div>
+				<div class="index-list-item">
+					<a class="links" href="#habilidades">Habilidades</a>
+				</div>
+				<div class="index-list-item">
+					<a class="links" href="#youtube">Canais do Youtube</a>
+				</div>
+				<div class="index-list-item">
+					<a class="links" href="#redes-sociais">Redes Sociais</a>
+				</div>
+			</div>
+		</div>
 
-    <div class="links">
-        <h3 id="youtube">Canais do Youtube</h3>
-        
-        <div class="flow">
-            <a href="https://www.youtube.com/channel/UC4ncvgh5hFr5O83MH7-jRJg" target="_blank" class="flow-link"><img src="flow.jpeg" alt="logo Flow Podcast" class="flow-img"></a>
-        </div>
+		<div class="hero-container">
+			<div class="hero-name">
+				<h3 id="nome" ></h3>
+				<hr>
+				<p id="font-name" >Rafael Victor Guimarães dos Santos</p>
+				<hr>
+			</div>
 
-        <div class="filipe-deschamps">
-            <a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw" target="_blank" class="filipe-deschamps-link"><img src="filipe-deschamps.jpeg" alt="logo Filipe Deschamps" class="filipe-deschamps-img"></a>
-        </div> 
+			<div class="text-img-skills-hero">
+				
+				<div class="hero-text">
+					<p >Formado em Educação Física a 10 anos, decidi me desafiar e buscar uma nova carreira em Tecnologia.</p>
+					<p >Sou brasileiro e moro atualmente na cidade de Macaé no interior do Estado do Rio de Janeiro.
+					</p>
+				</div>
 
-        <div class="so-um-minutinho">
-            <a href="https://www.youtube.com/channel/UCKTAQCwM-RlQzjTNFEnvOYQ" target="_blank" class="so-um-minutinho-link"><img src="so-um-minutinho.jpeg" alt="logo Só um minutinho" class="so-um-minutinho-img"></a>
-        </div>
+				<div class="hero-img">
+					<img class="img" src="Fotodeperfil.jpg" width="250px" alt="Homem sorrindo" id="foto">
+				</div>
 
-        <div class="ei-nerd">
-            <a href="https://www.youtube.com/channel/UCt_4wzTQqmcUvemNkeO0plA" target="_blank" class="ei-nerd-link"><img src="ei-nerd.jpeg" alt="logo Ei Nerd" class="ei-nerd-img"></a>
-        </div>
+				<div class="hero-skills">
+					<h3 id="habilidades">HABILIDADES:</h3>
+					<div class="skills-list">
+						<ul>
+							<li ><strong>HTML</strong></li>
+							<li >Git & GitHub</li>
+							<li >JavaScript</li>
+							<li ><em>CSS</em></li>
+							<li >Flexbox</li>
+							<li >Forms e Bootstrap</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <div class="desimpedidos">
-            <a href="https://www.youtube.com/channel/UCFjrDmEnxrG5TRGVO0TPHLA" target="_blank" class="desimpedidos-link"><img src="desimpedidos.png" alt="logo Desimpedidos" class="desimpedidos-img"></a>
-        </div>
+		<div class="midia-container">
+			
+			<div class="midia-title">
+				<h3 id="youtube">Canais do Youtube que mais curto</h3>
+			</div>
 
-        <div class="curso-em-video">
-            <a href="https://www.youtube.com/user/cursosemvideo" target="_blank" class="curso-em-video-link"><img src="curso-em-video.png" alt="logo Curso em Vídeo" class="curso-em-video-img"></a>
-        </div>
-    </div>
+			<div class="channel-container">
+				<a href="https://www.youtube.com/channel/UC4ncvgh5hFr5O83MH7-jRJg" target="_blank" class="btn"><img src="flow.jpeg" alt="logo Flow Podcast" class="img" ></a>
+			</div>
 
-    <div class="redes-sociais">
-        <h3 id="redes-sociais">Redes Sociais</h3>
-        <div class="instagram">
-            <a href="https://www.instagram.com/rafavictorgs/" target="_blank"><img src="instagram.png" alt="logo Instagram" class="instagram-img"></a>
-        </div>
+			<div class="channel-container">
+				<a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw" target="_blank" class="btn"><img src="filipe-deschamps.jpeg" alt="logo Filipe Deschamps" class="img" ></a>
+			</div> 
 
-        <div class="linkedin">
-            <a href="https://www.linkedin.com/in/rafaelvictorgs/" target="_blank"><img src="linkedin.png" alt="logo linkedin" class="linkedin-img"></a>
-        </div>
+			<div class="channel-container">
+				<a href="https://www.youtube.com/channel/UCKTAQCwM-RlQzjTNFEnvOYQ" target="_blank" class="btn"><img src="so-um-minutinho.jpeg" alt="logo Só um minutinho" class="img" ></a>
+				
+			</div>
 
-        <div class="github">
-            <a href="https://github.com/rafaelvictor88" target="_blank"><img src="github1.png" alt="logo GitHub" class="github-img"></a>
-        </div>
-    </div>
+			<div class="channel-container">
+				<a href="https://www.youtube.com/channel/UCt_4wzTQqmcUvemNkeO0plA" target="_blank" class="btn"><img src="ei-nerd.jpeg" alt="logo Ei Nerd" class="img" ></a>
+			</div>
+
+			<div class="channel-container">
+				<a href="https://www.youtube.com/channel/UCFjrDmEnxrG5TRGVO0TPHLA" target="_blank" class="btn"><img src="desimpedidos.png" alt="logo Desimpedidos" class="img" ></a>
+			</div>
+
+			<div class="channel-container">
+				<a href="https://www.youtube.com/user/cursosemvideo" target="_blank" class="btn"><img src="curso-em-video.png" alt="logo Curso em Vídeo" class="img" ></a>
+			</div>
+			
+		</div>
+
+		
+		<div class="social-container">
+
+			<h3 id="redes-sociais">Redes Sociais</h3>
+
+			<div class="social-net">
+				<a href="https://www.instagram.com/rafavictorgs/" target="_blank"><img src="instagram.png" alt="logo Instagram" class="img"></a>
+			</div>
+
+			<div class="social-net">
+				<a href="https://www.linkedin.com/in/rafaelvictorgs/" target="_blank"><img src="linkedin.png" alt="logo linkedin" class="img"></a>
+			</div>
+
+			<div class="social-net">
+				<a href="https://github.com/rafaelvictor88" target="_blank"><img src="github1.png" alt="logo GitHub" class="img"></a>
+			</div>
+		</div>
+	</section>
 
 </body>
 </html>
